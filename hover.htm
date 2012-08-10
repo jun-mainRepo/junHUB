@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title></title>
+
+ <style type="text/css">
+
+  #demo-6{
+ position:relative;
+ }
+ #demo-6 img{
+ position:absolute;
+ top:0;
+ left:0;
+ z-index:0;
+ }
+ #demo-6 .details{
+ opacity: .9;
+ position:absolute;
+ top:100;
+ left:150;
+ z-index:999;
+ -webkit-transform: scale(0);
+ -webkit-transition-timing-function: ease-out;
+ -webkit-transition-duration: 250ms;
+ }
+ #demo-6:hover .details{
+ -webkit-transform: scale(1);
+ -webkit-transition-timing-function: ease-out;
+ -webkit-transition-duration: 250ms;
+ }
+
+ #demo-1 img {
+	-webkit-transform: scale(1);
+	-webkit-transition-timing-function: ease-in;
+	-webkit-transition-duration: 500ms;
+}
+#demo-1 img:hover{
+	-webkit-transform: scale(.5);
+	-webkit-transition-timing-function: ease-in;
+	-webkit-transition-duration: 500ms;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="demo-1">
+	<img src="images/google_chrome.ico"/>
+	<div>
+		<h3>Transformers</h3>
+		<p>More than meets the eye</p>
+	</div>
+</div>
+
+</body>
+
+</html>

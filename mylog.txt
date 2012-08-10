@@ -1,0 +1,6 @@
+[13/Jul/2012:08:10:32] (test) Test message1
+[13/Jul/2012:08:10:33] (test) Test message2
+[13/Jul/2012:08:10:33] (test) Test message3
+[13/Jul/2012:08:10:38] (test) Test message1
+[13/Jul/2012:08:10:38] (test) Test message2
+[13/Jul/2012:08:10:38] (test) Test message3

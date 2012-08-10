@@ -1,0 +1,652 @@
+/* CSS Document */
+body{;position:relative;width:1170px;height:auto;padding:0; margin:0; background:url(images/main-bg.gif) 0 0 repeat-x #FCFAE6; font:14px/20px Arial, Helvetica, sans-serif; color:#3D3C2C; font-weight:normal;}
+div, p, h1, h2, h3, ul, img{position:relative;padding:0px; margin:0px;}
+
+
+
+img.image{
+
+ position:absolute;
+ margin-top:10px;
+ margin-left:650px;
+
+ }
+
+
+
+
+input.a{
+
+  position:relative;
+  margin:auto;
+  margin-left:300px;
+  background-color:#FFCCFF;
+  left:350px;
+  height:20px;
+  width: 200px;
+  top:15px;
+
+   }
+
+input.b{
+
+  position:relative;
+ margin-top:-300px;
+ top:15px;
+  height:30px;
+  width: 50px;
+  color:black;
+ margin-left:350px;
+  border-top-left-radius:2em;
+  border-top-right-radius:2em;
+  border-bottom-right-radius:2em;
+  border-bottom-left-radius:2em;
+  -moz-box-shadow:    inset 0 0 10px #0086B2;
+ box-shadow:         inset 0 0 10px #0086B2; background-repeat:no-repeat;
+ background-color:#FF6666;background: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#FFFFFF));
+
+
+
+}
+
+
+
+#container{
+	    position:relative;
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+        width:inherit;
+
+        margin-left:420px;
+        border-top-left-radius:2em;
+        border-top-right-radius:2em;
+        border-bottom-right-radius:2em;
+        border-bottom-left-radius:2em;
+        border-radius: 20px;
+        -webkit-box-shadow: 5px 5px 10px rgba(5,5,5,2.6);
+       -webkit-transform: rotate(-5deg);
+        border-width:10px;
+        top:150px;
+
+
+
+
+	}
+
+
+
+
+    #gollum{
+
+     position:relative;
+     width:1110px;
+     height:230px;
+    background-color:white;
+     margin-top:100px;
+     margin-left:110px;
+     top:-160px;
+     border-top-left-radius:2em;
+   border-top-right-radius:2em;
+   border-bottom-left-radius:2em;
+   border-bottom-right-radius:2em;
+
+    -moz-box-shadow:    inset 0 0 15px #3366FF;
+ box-shadow:         inset 0 0 15px #3366FF;
+
+
+    font-family:Courier New;
+
+   font-size:23px;
+
+    }
+
+
+    #apple{
+
+       position:relative;
+     width:900px;
+     height:210px;
+
+     margin-left:10px;
+     top:15px;
+     left:-2px;
+
+
+    }
+
+
+ h3{
+
+ position:relative;
+margin-top:-10px;
+top:30px;
+letter-spacing:5px;
+font-family:Courier New ;
+font-weight:bold;
+color:black;
+font-size:18px;
+background: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#FFFFFF));
+
+
+
+ }
+
+ span.r{
+
+ font-size:25px;
+ font-family:broadway;
+ color:blue;
+
+
+ }
+
+
+  #logo{
+
+position:relative;
+margin-left:50px;
+
+
+}
+
+#logo img{
+
+position:fixed;
+margin-left:-150px;
+left:250px;
+margin-top:-10px;
+width:110px;
+height:110px;
+
+
+
+}
+
+p.text{
+
+position:relative;
+font-family:Courier New;
+margin-left:-25px;
+margin-top:75px;
+font-weight:BOLD;
+left:250px;
+
+
+
+}
+
+
+#oras{
+
+position:absolute;
+top:-80px;
+left:1270px;
+
+}
+
+
+a.neda_text:link {color:#ff0000;}
+a.neda_text:visited {color:#0000ff;}
+a.neda_text:hover {background-color:#FF6666;background: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#FFFFFF));}
+
+
+
+ #s_engine{
+
+
+ position:relative;
+ top:-150px;
+ left:800px;
+ }
+
+ #search_body{
+
+ position:relative;
+ top:-20px;
+
+ }
+
+
+
+ul{list-style-type:none;}
+
+/* TOP PANEL */
+#topPan{margin:0 auto;width:778px; height:96px; position:relative; margin:0 auto; padding:0;top:-100px;margin-left:450px;}
+#topPan img{width:204px; height:57px; display:block; padding:23px 0 0 6px;}
+/* Menu Panel */
+#topPan ul{width:520px; height:96px; display:block; position:absolute; top:0px; right:9px; margin:0; padding:0;}
+#topPan ul li{float:left; width:104px; display:block; text-align:center;}
+#topPan ul li a{width:104px; height:35px; display:block; font:14px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E4E00; background:url(images/menu-bg.gif) 0 0 repeat-x #F4F1DD; text-decoration:none; margin:0; padding:61px 0 0 0; }
+#topPan ul li a:hover{ width:104px; height:40px; display:block; background-color:#FF6666;background: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#FFFFFF)); color:#2E4E00; text-decoration:none;}
+#topPan ul li span{width:104px; height:35px; display:block; background:url(images/menu-devider1.gif) 100% 0 no-repeat #FCFAE6; color:#2E4E00; text-decoration:none; padding:61px 0 0 0; line-height:14px;}
+
+/* /TOP PANEL */
+
+/* HEADER PANEL */
+#headerPan{margin:0 auto;width:250px; height:700px; position:fixed; margin-left:40px; margin-top:-170px;top:300px;padding:0;background-color:#FF6666;background: -webkit-gradient(linear, left top, left bottom, from(#00FFFF), to(#FFFFFF)); border-top-left-radius:2em;
+   border-top-right-radius:2em;
+   border-bottom-left-radius:2em;
+   border-bottom-right-radius:2em; }
+
+#headerPanleft{margin-top:-30px; width:237px; height:600px; position:relative; top:48px; left:9px;}
+#headerPan #ourblog{ float:left; width:237px; height:50px; position:relative; margin:0 auto; background:url(images/icon1-nor.gif) 0 0 no-repeat;}
+#headerPan #ourblog h2{width:90px; height:20px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #ourblog p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #ourblog a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #ourblog a:hover{text-decoration:none; background:url(images/icon1-hover.gif) no-repeat 0 0;}
+
+#headerPan #possib{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon2-nor.gif) 0 0 no-repeat;}
+#headerPan #possib h2{width:120px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #possib p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #possib a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #possib a:hover{text-decoration:none; background:url(images/icon2-hover.gif) no-repeat 0 0;}
+
+#headerPan #solution{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon1-nor.gif) 0 0 no-repeat;}
+#headerPan #solution h2{width:90px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #solution p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #solution a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #solution a:hover{text-decoration:none; background:url(images/icon1-hover.gif) no-repeat 0 0;}
+
+#headerPan #indicator{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon2-nor.gif) 0 0 no-repeat;}
+#headerPan #indicator h2{width:90px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #indicator p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #indicator a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #indicator a:hover{text-decoration:none; background:url(images/icon2-hover.gif) no-repeat 0 0;}
+
+#headerPan #areaname{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon2-nor.gif) 0 0 no-repeat;}
+#headerPan #areaname h2{width:100px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #areaname p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #areaname a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #areaname a:hover{text-decoration:none; background:url(images/icon2-hover.gif) no-repeat 0 0;}
+
+#headerPan #timeperiod{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon1-nor.gif) 0 0 no-repeat;}
+#headerPan #timeperiod h2{width:130px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #timeperiod p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #timeperiod a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #timeperiod a:hover{text-decoration:none; background:url(images/icon1-hover.gif) no-repeat 0 0;}
+
+#headerPan #areaid{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon1-nor.gif) 0 0 no-repeat;}
+#headerPan #areaid h2{width:90px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #areaid p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #areaid a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #areaid a:hover{text-decoration:none; background:url(images/icon3-hover.gif) no-repeat 0 0;}
+
+#headerPan #unit{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon2-nor.gif) 0 0 no-repeat;}
+#headerPan #unit h2{width:90px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #unit p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #unit a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #unit a:hover{text-decoration:none; background:url(images/icon3-hover.gif) no-repeat 0 0;}
+
+#headerPan #subgroup{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon1-nor.gif) 0 0 no-repeat;}
+#headerPan #subgroup h2{width:100px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #subgroup p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #subgroup a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #subgroup a:hover{text-decoration:none; background:url(images/icon3-hover.gif) no-repeat 0 0;}
+
+#headerPan #source{ float:left; width:237px; height:50px; position:relative; margin:13px 0 0 0; background:url(images/icon2-nor.gif) 0 0 no-repeat;}
+#headerPan #source h2{width:90px; height:10px; background:#fff; display:block; position:absolute; left:0px; top:0px; margin:14px 0 5px 81px; font:16px/14px Georgia, "Times New Roman", Times, serif; color:#CC0000; z-index:1; text-transform:uppercase;}
+#headerPan #source p{width:103px; height:10px; display:block; position:absolute; font:12px/14px "Trebuchet MS",Arial, Helvetica, sans-serif; color:#2E5000; background:#fff; margin:34px 0 0 81px; z-index:1; }
+#headerPan #source a{text-decoration:none; display:block; width:237px; height:62px;}
+#headerPan #source a:hover{text-decoration:none; background:url(images/icon3-hover.gif) no-repeat 0 0;}
+
+/* BODY PANEL */
+#bodyPan{margin:0 auto;width:778px; height:887px; position:relative; margin:0 auto; padding:0;}
+/*Left Panel */
+
+#leftmemberPan{width:237px; height:196px; position:relative; margin:0 auto; padding:0; border:1px solid #DCDAC2; background:#fff; color:#000;}
+#leftmemberPan h2{height:48px; background:url(images/symbol4.gif) 0 0 no-repeat #fff; display:block; position:relative; padding:0 0 0 57px; margin:12px 0 20px 13px; font:16px/48px  Georgia,"Times New Roman", Times, serif; color:#5EA000; text-transform:uppercase;}
+#leftmemberPan h2 span{background:#fff; color:#3D3C2C;}
+#leftPan form{width:220px; height:108px; background:#EBE9D7; padding:0; margin:0 0 0 8px; color:#333227;}
+#leftPan form label{width:72px; display:block; float:left; padding:14px 15px 0 16px; }
+#leftPan form label.emailpadding{padding:2px 15px 0 16px;}
+#leftPan form input{ float:left; display:block; width:101px; height:16px; margin:14px 0 9px 0}
+#leftPan form input.fieldpadding{margin:2px 0 9px 0}
+#leftPan h3{height:48px; background:#FCFAE6; display:block; float:right; padding:0 0 0 57px; margin:12px 0 22px 13px; font:28px/48px Georgia, "Times New Roman", Times, serif; color:#3D3C2C;}
+#leftPan ul{ display:block; float:right; width:150px; height:327px;}
+#leftPan ul li{background:url(images/arrow3.gif) 140px 10px no-repeat; padding:0px 20px 0 0; text-align:right;}
+#leftPan ul li a{text-decoration:underline; color:#3D3C2C; background:#FCFAE6;}
+#leftPan ul li a:hover{text-decoration:none;}
+
+#leftPango{width:220px; height:25px; position:absolute; top:160px; left:8px; border-top:1px solid #fff; background:#B0AD93; display:block; padding:0; margin:0; font-size:12px; color:#FFFFFA; line-height:23px; font-weight:bold;}
+#leftPango p.textposition a{float:left; padding:0 0 0 20px; margin:0; text-decoration:none; color:#FFFFFA; background:#B0AD93;}
+#leftPango p.textposition a:hover{text-decoration:underline; background:none;}
+#leftPan form input.gobutton{float:right; background:url(images/arrow4.gif) no-repeat 30px 0 #63614F; border:none; width:45px; height:21px; display:block; margin:2px 0 0 0; padding:0 0 0 5px; text-decoration:none; color:#fff; font:14px/21px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:left;}
+#leftPango a:hover{background:url(images/arrow4.gif) no-repeat 30px 1px #333229; text-decoration:none; color:#fff;}
+
+/*/Left Panel */
+/*Right Panel */
+#rightPan{margin:0 auto;width:1110px;height:auto; position:absolute;margin-left:60px; margin-top:95px; left:50px; top:0px; right:-200px; border:1px solid #DCDAC2; background:#fff; color:#3D3C2C;border-top-left-radius:2em;
+border-top-right-radius:2em;
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em;
+-moz-box-shadow:    inset 0 0 10px #3366FF;
+ box-shadow:         inset 0 0 10px #3366FF; background-repeat:no-repeat;
+ background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(	#99B2FF));        }
+
+
+
+
+#rightbodyPan{margin:0 auto;width:884px; height:855px; position:absolute; top:10px; left:10px; background:#FCFAE6; color:#3D3C2C;}
+#rightbodyPan h2{width:266px; height:31px; display:block; position: relative;  100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:20px 0 20px 80px ;}
+#rightbodyPan p{padding:0 80px 30px;}
+#rightbodyPan p.redtext{background:#FCFAE6; color:#CC0000; font-size:18px; line-height:20px; padding:0 80px 26px;}
+#rightbodyPan p span{background:#FFFFFA; color:#3D3C2C;}
+#rightbodymore{width:306px; height:25px; border:1px solid #fff; background:#B0AD93; display:block; padding:2px; margin:0 60px 0 80px; font-size:12px; color:#FFFFFA; line-height:25px; font-weight:bold;}
+#rightbodymore p.textposition{float:left; padding:0 0 0 20px; margin:0;}
+#rightbodymore a{float:right; background:url(images/arrow4.gif) no-repeat 58px 1px #63614F; width:66px; display:block; position:relative; margin:1px 0 0 0; padding:0 0 0 10px; height:23px; text-decoration:none; color:#fff; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#rightbodymore a:hover{background:url(images/arrow4.gif) no-repeat 58px 1px #333229; text-decoration:none; color:#fff;}
+#rightbodyPan h3{width:268px; height:31px; display:block; position: relative; background:url(images/symbol6.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:27px 0 20px 80px ;}
+#rightbodyPan ul{width:328px; height:92px; position:relative; top:5px; left:80px; margin:0 0 30px 0;}
+#rightbodyPan li{width:340px; background:url(images/arrow2.gif) 0 7px no-repeat; font:14px/24px Arial, Helvetica, sans-serif; padding:0 0 0 20px;}
+#rightbodyPan li a{width:235px; height:60px; background:#FCFAE6; color:#CC0000; text-decoration:underline; line-height:24px;}
+#rightbodyPan ul li a:hover{width:235px; height:60px;  text-decoration:none; line-height:24px;}
+
+#rightbodymorenext{width:306px; height:25px; border:1px solid #fff; background:#B0AD93; display:block; padding:2px; margin:0 60px 0 80px; font-size:12px; color:#FFFFFA; line-height:25px; font-weight:bold;}
+#rightbodymorenext p.textposition{float:left; padding:0 0 0 20px; margin:0;}
+#rightbodymorenext a{float:right; background:url(images/arrow4.gif) no-repeat 58px 1px #63614F; width:66px; display:block; position:relative; margin:1px 0 0 0; padding:0 0 0 10px; height:23px; text-decoration:none; color:#fff; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#rightbodymorenext a:hover{background:url(images/arrow4.gif) no-repeat 58px 1px #333229; text-decoration:none; color:#fff;}
+
+
+
+
+
+#whole{
+  position:relative;
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+p.blink{
+
+text-decoration:blink;
+
+}
+
+a.click:link,a.click:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background: -webkit-gradient(linear, left top, left bottom, from(#00BFFF), to(blue));
+width:230px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+border-top-right-radius:2em;
+border-top-left-radius:2em;
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em;
+}
+a.click:hover,a.click:active
+{
+ background: -webkit-gradient(linear, left top, left bottom, from(#0086B2), to(#00BFFF));   
+}
+
+
+a.csv{
+
+position:relative;
+margin-left:700px;
+top:-30px;
+
+}
+
+a.csv:link,a.csv:visited
+{
+display:block;
+font-weight:lighter;
+color:#FFFFFF;
+background: -webkit-gradient(linear, left top, left bottom, from(#00BFFF), to(blue));
+width:230px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+border-top-right-radius:2em;
+border-top-left-radius:2em;
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em;
+}
+a.csv:hover,a.csv:active
+{
+ background: -webkit-gradient(linear, left top, left bottom, from(#0086B2), to(#00BFFF));
+}
+
+img.home{
+
+position:relative;
+height:100px;
+width:10px;
+margin-left:-20px;
+
+}
+
+#audio{
+
+position:relative;
+
+}
+
+h4.search_txt{
+
+position:relative;
+margin-left:440px;
+top:35px;
+letter-spacing:2px;
+word-spacing:-5px;
+font-weight:lighter;
+color:blue;
+  font-family:Courier New bold italic;
+  font-size: 18px;
+ text-shadow: 0.1em 0.1em 0.2em #ffffff;
+
+
+}
+
+
+#add2{
+
+position:relative;
+margin-left:5px;
+margin-top:-58px;
+
+}
+
+#add3{
+
+position:relative;
+margin-left:10px;
+
+}
+
+#add4{
+
+position:relative;
+margin-left:-3px;
+margin-top:-32px;
+
+
+}
+
+#add5{
+
+position:relative;
+margin-left:-3px;
+margin-top:-40px;
+
+
+}
+
+#add6{
+
+position:relative;
+margin-left:-3px;
+margin-top:-40px;
+
+
+}
+
+#add7{
+
+position:relative;
+margin-left:-3px;
+margin-top:-40px;
+
+
+}
+
+#add8{
+
+position:relative;
+margin-top:5px;
+
+}
+
+
+#home{
+
+position:relative;
+margin-left:-65px;
+margin-top:-50px;
+
+}
+
+span.neda{
+
+  position:relative;
+  font-family:Armalite Rifle;
+  top:-60px;
+  left:280px;
+  letter-spacing:10px;
+  font-weight:bold;
+  font-size:50px;
+  color:blue;
+
+}
+
+ #introContainer{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ background-color: #ffffff;
+ display: none;
+}
+
+#introContent{
+ position: absolute;
+ width: 100%;
+ top: 30%;
+ text-align: center;
+ background: -webkit-gradient(linear, left top, left bottom, from(#0086B2), to(#00BFFF));
+
+
+}
+
+
+/*th.th_a {
+
+position:fixed;
+margin-left:0px;
+width:40px;
+margin-top:-30px;
+
+
+
+}
+
+th.th_b{
+
+position:fixed;
+margin-left:40px;
+margin-top:-30px;
+
+}
+
+th.th_c{
+
+position:fixed;
+margin-left:80px;
+margin-top:-30px;
+
+}
+
+th.th_d{
+
+position:fixed;
+margin-left:120px;
+margin-top:-30px;
+}
+
+th.th_e{
+
+position:fixed;
+margin-left:160px;
+margin-top:-30px;
+}
+
+th.th_f{
+
+position:fixed;
+margin-left:200px;
+margin-top:-30px;
+}
+
+th.th_g{
+
+position:fixed;
+margin-left:240px;
+margin-top:-30px;
+
+}
+
+th.th_h{
+
+position:fixed;
+margin-left:280px;
+margin-top:-30px;
+
+}
+
+th.th_i{
+
+position:fixed;
+margin-left:320px;
+margin-top:-30px;
+
+}
+
+th.th_j{
+
+position:fixed;
+margin-left:360px;
+margin-top:-30px;
+
+}
+
+th.th_k{
+
+position:fixed;
+margin-left:570px;
+margin-top:-30px;
+height:100px;
+width:40px;
+
+}
+
+th.th_l{
+
+position:fixed;
+margin-left:620px;
+margin-top:-30px;
+width:280px;
+
+}
+
+
+
+/* /BODY PANEL */
+
+/* FOOTER PANEL */

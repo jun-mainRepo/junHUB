@@ -1,0 +1,175 @@
+<html>
+
+    <head>
+
+    <script type="text/javascript">
+
+        function validateForm() {
+
+
+
+			//Get the controls
+
+            var nameControl = document.getElementById("name");
+
+			var mailControl = document.getElementById("mail");
+
+			var ageControl = document.getElementById("age");
+
+			//Get the error spans
+
+			var nameError = document.getElementById("nameError");
+
+			var mailError = document.getElementById("mailError");
+
+			var ageError = document.getElementById("ageError");
+
+
+
+			//Create expressions
+
+			var isNumeric = /^[0-9]+$/;
+
+			var isLetters = /^[a-zA-Z]+$/;
+
+			var isEmail = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
+
+
+			//Cheack each one and if it fails, set an appropriate error message
+
+
+
+			//If name is empty or invalid
+
+			if(nameControl.value == "")
+
+				nameError.innerHTML = " * Name is empty";
+
+			else if(nameControl.value.search(isLetters))
+
+				nameError.innerHTML = " * Name must only contain letters";
+
+			else
+
+				nameError.innerHTML = "";
+
+
+
+			//If mail is empty or invalid
+
+			if(mailControl.value == "")
+
+				mailError.innerHTML = " * Email is empty";
+
+			else if(mailControl.value.search(isEmail))
+
+				mailError.innerHTML = " * Email is not valid";
+
+			else
+
+				mailError.innerHTML = "";
+
+
+
+			//If age is empty or invalid
+
+			if(ageControl.value == "")
+
+				ageError.innerHTML = " * Age is empty";
+
+			else if(ageControl.value.search(isNumeric))
+
+				ageError.innerHTML = " * Age must only contain numbers";
+
+			else
+
+				ageError.innerHTML = "";
+
+
+
+			//If any errors occurred, return false, otherwise true
+
+			if(nameError.innerHTML == "" && mailError.innerHTML == "" && ageError.innerHTML == "")
+
+				return true;
+
+			else
+
+				return false;
+
+
+
+        };
+
+    </script>
+
+	<style type="text/css">
+
+		.error {
+
+			color: #ff0000;
+
+			font-weight: bold;
+
+		}
+
+	</style>
+
+    <title>A simple form validation example</title>
+
+    </head>
+
+
+
+    <body>
+
+		<form action="" method="post" name="myForm" onsubmit="return validateForm();">
+
+			<table>
+
+				<tr>
+
+					<th>Name</th>
+
+					<td><input type="text" name="name" id="name" /></td>
+
+					<td><p id="nameError" class="error"></p></td>
+
+				</tr>
+
+				<tr>
+
+					<th>Email</th>
+
+					<td><input type="text" name="mail" id="mail" /></td>
+
+					<td><p id="mailError" class="error"></p></td>
+
+				</tr>
+
+				<tr>
+
+					<th>Age</th>
+
+					<td><input type="text" name="age" id="age" /></td>
+
+					<td><p id="ageError" class="error"></p></td>
+
+				</tr>
+
+				<tr>
+
+					<td colspan="3"><input id="add3" name="add3" type="image" src="images/document_save.ico" height ="60" width ="60" title="save" />&nbsp;&nbsp; </td>
+
+				</tr>
+
+			</table>
+
+		</form>
+
+    </body>
+
+
+
+</html>

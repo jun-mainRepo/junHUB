@@ -1,0 +1,16 @@
+
+LJT_Ads.servingAd();
+var MAX_48bab29c = '';
+MAX_48bab29c += "%3Cscript%20language%3D%22JavaScript%22%3E%0Alwp_parent_ad_id%3D14250%3B%0Aif%20(typeof%20ljt_beacon_vals%20%3D%3D%20%22undefined%22)%20%7B%0A%20%20ljt_beacon_vals%20%3D%20new%20Array()%3B%0A%7D%0Aljt_beacon_vals%5B153623%5D%20%3D%20%22bannerid%3D14250%26amp%3Bcampaignid%3D232%26amp%3Bcids%3D232%26amp%3Bbids%3D14250%22%3B%0Aif%20((typeof%20LJT_bCInfo%20!%3D%20%22undefined%22)%20%26%26%20(typeof%20LJT_bCInfo%5B153623%5D%20!%3D%20%22undefined%22))%20%7B%0A%20%20ljt_beacon_vals%5B153623%5D%20%2B%3D%20LJT_bCInfo%5B153623%5D%3B%0A%7D%20%20%0A%3C%2Fscript%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3E%3C!--%0Agoogle_ad_client%20%3D%20%22ca-pub-2955521271057183%22%3B%0A%2F*%20ComboTester%20Leaderboard%20A%20*%2F%0Agoogle_ad_slot%20%3D%20%228331865739%22%3B%0Agoogle_ad_width%20%3D%20728%3B%0Agoogle_ad_height%20%3D%2090%3B%0A%2F%2F--%3E%0A%3C%2Fscript%3E%0A%3Cscript%20type%3D%22text%2Fjavascript%22%0Asrc%3D%22http%3A%2F%2Fpagead2.googlesyndication.com%2Fpagead%2Fshow_ads.js%22%3E%0A%3C%2Fscript%3E%3Cscript%20language%3D%22JavaScript%22%3ELJT_Ads.servingPassback()%3B%3C%2Fscript%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Evar%20ljt_beacon%20%3D%20%22%3Cdiv%20id%3D\'beacon_14250\'%20style%3D\'position%3A%20absolute%3B%20left%3A%200px%3B%20top%3A%200px%3B%20visibility%3A%20hidden%3B\'%3E%3Cimg%20src%3D\'http%3A%2F%2Fvap1ewr1.lijit.com%2Fwww%2Fdelivery%2Flg.php%3FLJT_REQUEST_INFO%26amp%3Bzoneid%3D153623%26amp%3Btid%3D153623_13382772669520f512c05f17a%26amp%3Bloc%3Dhttp%253A%252F%252Fwww.colorcombos.com%252F336699-hex-color%26amp%3Breferer%3Dhttp%253A%252F%252Fwww.colorcombos.com%252Fcolors%252F336699%26amp%3Bcb%3De600da17de\'%20width%3D\'0\'%20height%3D\'0\'%20alt%3D\'\'%20style%3D\'width%3A%200px%3B%20height%3A%200px%3B\'%20%2F%3E%3C%2Fdiv%3E%22%3B%20ljt_beacon%20%3D%20ljt_beacon.replace(%22LJT_REQUEST_INFO%22%2C%20ljt_beacon_vals%5B153623%5D)%3B%20document.write(ljt_beacon)%3B%3C%2Fscript%3E%3Cscript%20language%3D%22JavaScript%22%3Efunction%20showPremiumAds153623()%7Bvar%20e%20%3D%20document.getElementById(%22lwp_ad_item_premium_153623%22)%3B%20if%20(e)%20%7B%20e.style.display%3D%22block%22%3B%20return%3B%20%7D%20%20var%20i%20%3D%200%3B%20var%20w%20%3D%20parent%3B%20while%20(i%20%3C%2010%20%26%26%20w%20!%3D%20null)%20%7B%20var%20e%20%3D%20w.document.getElementById(%22lwp_ad_item_premium_153623%22)%3B%20if%20(e%20!%3D%20null%20)%20%7B%20e.style.display%3D%22block%22%3B%20i%20%3D%2010%3B%20%7D%20%3B%20if%20(w%20%3D%3D%20self)%20%7B%20i%20%3D%2010%3B%20%7D%20else%20%7B%20w%20%3D%20w.parent%20%7D%3B%20i%2B%2B%3B%20%7D%7D%20showPremiumAds153623()%3B%20var%20lijit_ad_id%20%3D%20%22lijit_text_ad_link_txt%22%3B%20var%20lijit_text_ad_link%20%3D%20document.getElementById(lijit_ad_id)%3B%20if%20(lijit_text_ad_link%20!%3D%20null)%20%7B%20lijit_text_ad_link.target%20%3D%20%22_blank%22%3B%7D%20var%20lijit_text_ad_container%20%3D%20document.getElementById(%22lijit_text_ad_container%22)%3B%20%3C%2Fscript%3E\n";
+document.write(decodeURIComponent(MAX_48bab29c));try{
+	LJT_AP_ADDRESS = 'http://vap1ewr1.lijit.com/www/delivery/';
+	LJT_Ad_beacon();
+}catch(Ex){
+	if(typeof LJT_Errors != "undefined"){
+		if(LJT_Errors.append){
+			LJT_Errors.append(["AdBeacon", Ex]);
+		}
+	}else{
+		LJT_Errors = [["AdBeacon", Ex]];
+	}
+}

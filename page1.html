@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title></title>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>      
+
+  <script LANGUAGE="JavaScript">
+function seleciona() {
+if (F1.master.checked==true)
+for (i=0; i<document.F1.elements.length;i++)
+{
+document.F1.elements[i].checked=true
+}
+if (F1.master.checked==false)
+for (i=0; i<document.F1.elements.length;i++)
+{
+document.F1.elements[i].checked=false
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<form name="F1" method="post" action="page.php">
+<input type="checkbox" name="master" onClick="seleciona()"> // For select one checkbox
+<input type="checkbox" name="selecionar[]" value="<?php echo $cod_id;?>"> // For select all checkbox
+</form>
+
+</body>
+
+</html>
+
+
+

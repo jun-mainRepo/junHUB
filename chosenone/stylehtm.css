@@ -1,0 +1,25 @@
+
+#rightPan{width:504px; height:875px; position:relative; top:0px; margin-left:10px; border:1px solid #DCDAC2; background:#fff; color:#3D3C2C;}
+#rightbodyPan{width:484px; height:855px; position:relative; top:10px; margin-left:10px; background:#FCFAE6; color:#3D3C2C;}
+#rightbodyPan h2{width:266px; height:31px; display:block; position: relative; background:url(images/symbol5.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:20px 0 20px 80px ;}
+#rightbodyPan p{padding:0 80px 30px;}
+#rightbodyPan p.redtext{background:#FCFAE6; color:#CC0000; font-size:18px; line-height:20px; padding:0 80px 26px;}
+#rightbodyPan p span{background:#FFFFFA; color:#3D3C2C;}
+#rightbodymore{width:306px; height:25px; border:1px solid #fff; background:#B0AD93; display:block; padding:2px; margin:0 60px 0 80px; font-size:12px; color:#FFFFFA; line-height:25px; font-weight:bold;}
+#rightbodymore p.textposition{float:left; padding:0 0 0 20px; margin:0;}
+#rightbodymore a{float:right; background:url(images/arrow4.gif) no-repeat 58px 1px #63614F; width:66px; display:block; position:relative; margin:1px 0 0 0; padding:0 0 0 10px; height:23px; text-decoration:none; color:#fff; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#rightbodymore a:hover{background:url(images/arrow4.gif) no-repeat 58px 1px #333229; text-decoration:none; color:#fff;}
+#rightbodyPan h3{width:268px; height:31px; display:block; position: relative; background:url(images/symbol6.gif) 100% 0 no-repeat #FCFAE6; padding:24px 0 0 0; font:28px/28px Georgia, "Times New Roman", Times, serif; color:#3D3C2C; margin:27px 0 20px 80px ;}
+#rightbodyPan ul{width:328px; height:92px; position:relative; top:5px; left:80px; margin:0 0 30px 0;}
+#rightbodyPan li{width:340px; background:url(images/arrow2.gif) 0 7px no-repeat; font:14px/24px Arial, Helvetica, sans-serif; padding:0 0 0 20px;}
+#rightbodyPan li a{width:235px; height:60px; background:#FCFAE6; color:#CC0000; text-decoration:underline; line-height:24px;}
+#rightbodyPan ul li a:hover{width:235px; height:60px;  text-decoration:none; line-height:24px;}
+
+#rightbodymorenext{width:306px; height:25px; border:1px solid #fff; background:#B0AD93; display:block; padding:2px; margin:0 60px 0 80px; font-size:12px; color:#FFFFFA; line-height:25px; font-weight:bold;}
+#rightbodymorenext p.textposition{float:left; padding:0 0 0 20px; margin:0;}
+#rightbodymorenext a{float:right; background:url(images/arrow4.gif) no-repeat 58px 1px #63614F; width:66px; display:block; position:relative; margin:1px 0 0 0; padding:0 0 0 10px; height:23px; text-decoration:none; color:#fff; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#rightbodymorenext a:hover{background:url(images/arrow4.gif) no-repeat 58px 1px #333229; text-decoration:none; color:#fff;}
+
+
+
+/* FOOTER PANEL */
